@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Spotify - Your favourite music is here</title>
+        <link rel="stylesheet" href="style.css">
+        </head>
+        <body style="background-color: black;" >    <nav>
+        <ul>
+            <li class="brand"><img src="https://img.etimg.com/thumb/msid-81525531,width-650,imgsize-622277,,resizemode-4,quality-100/music_thinkstockphotos.jpg" alt="Spotify"> Music Player</li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+              <h1 style=" font-family:Lucida Sans Unicode; color: rgb(104, 252, 124);">English Songs</h1><br>
+            </div>
+            <br>
+            <br>
+            <div class="col-md-3">
+              <a class="album-poster"> 
+                <img
+                  src="https://c4.wallpaperflare.com/wallpaper/749/258/381/southpaw-wallpaper-preview.jpg" width="300" height="200"
+                  alt="image" id="song">
+                  <i  id="1" class="far songItemPlay fa-play-circle"></i>
+              </a>
+              <h4 id="font" style="position: relative; left: 35px;">Till I collaps</h4>
+            </div>
+            <div class="col-md-3">
+                <a  class="album-poster">
+                  <img
+                    src="https://pyxis.nymag.com/v1/imgs/dcb/f4b/0b501b2a65edec004395fc580db853e092-10-selena-gomez-justin-bieber-the-weeken.rhorizontal.w600.jpg"  height="200" width="300"
+                    alt="image" id="song">
+                    <i  id="2" class="far songItemPlay fa-play-circle"></i>
+                </a>
+                <h4 id="font" style="position: relative; left: 25px;">trios</h4>
+              </div>
+              <div class="col-md-3">
+                <a  class="album-poster">
+                  <img
+                   src="https://pbs.twimg.com/profile_images/1286117431304388610/XmfP1XDb.jpg" alt="Forest" height="200" width="300"
+                    alt="image" id="song">
+                    <i  id="3" class="far songItemPlay fa-play-circle"></i>
+                </a>
+                <h4 id="font" style="position: relative; left: 35px;">One direction</h4>
+              </div>
+                <div class="col-md-3">
+                    <a  class="album-poster">
+                      <img
+                        src="https://townsquare.media/site/812/files/2020/05/eminem.jpg"  height="200" width="300"
+                        alt="image" id="song">
+                        <i  id="4" class="far songItemPlay fa-play-circle"></i>
+                    </a>
+                    <h4 id="font" style="position: relative; left: 35px;">Eminem</h4>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                      <h1 style=" font-family:Lucida Sans Unicode; color: rgb(252, 237, 104);">Hindi Songs</h1><br>
+                    </div>
+                    <br>
+                    <br>
+                    <div class="col-md-3">
+                      <a class="album-poster"> 
+                        <img
+                          src="https://i.ytimg.com/vi/sYES-OcatFY/maxresdefault.jpg" width="300" height="200"
+                          alt="image" id="song">
+                          <i  id="5" class="far songItemPlay fa-play-circle"></i>
+                      </a>
+                      <h4 id="font" style="position: relative; left: 35px;">Ya tera superstar</h4>
+                    </div>
+                    <div class="col-md-3">
+                      <a  class="album-poster">
+                        <img
+                          src="https://static.toiimg.com/thumb/msid-68215420,width-800,height-600,resizemode-75,imgsize-101710,pt-32,y_pad-40/68215420.jpg "  height="200" width="300"
+                          alt="image" id="song">
+                          <i  id="6" class="far songItemPlay fa-play-circle"></i>
+                      </a>
+                      <h4 id="font" style="position: relative; left: 25px;">Gully boy</h4>
+                    </div>
+                    <div class="col-md-3">
+                      <a  class="album-poster">
+                        <img
+                         src="https://www.koimoi.com/wp-content/new-galleries/2021/02/yo-yo-honey-singh-wears-a-90-lakh-watch-which-takes-3-7-years-to-arrive-001.jpg" alt="Forest" height="200" width="300"
+                          alt="image" id="song">
+                          <i  id="7" class="far songItemPlay fa-play-circle"></i>
+                      </a>
+                      <h4 id="font" style="position: relative; left: 35px;">Dj Dhawan
+                    </h4>
+                    </div>
+        </div>
+        <div class="songBanner"></div>
+  
+
+    <div class="bottom">
+        <input type="range" name="range" id="myProgressBar" min="0" value="0" max="100">
+        <div class="icons">
+            <!-- fontawesome icons -->
+            <i class="fas fa-3x fa-step-backward" id="previous"></i>
+            <i class="far fa-3x fa-play-circle" id="masterPlay"></i>
+            <i class="fas fa-3x fa-step-forward" id="next"></i> 
+        </div>
+        <div class="songInfo">
+            <img src="playing.gif" width="42px" alt="" id="gif"> <span id="masterSongName">Everyday -ASAP/span>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/26504e4a1f.js" crossorigin="anonymous"></script>
+</body>
+</html>
